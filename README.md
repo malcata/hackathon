@@ -1,16 +1,15 @@
 # Landing.jobs Hackathon
 
 ## The issue
-At Landing.jobs we're trying to match great jobs with the best candidates. However we're still missing a lot of information on the behavior of our users. For example, we currently have no information on why certain people apply and others don't
+At Landing.jobs we're trying to match great jobs with the best candidates. However we're still missing a lot of information on the behavior of our users. For example, we currently have no information on why certain people apply and others don't.
 
-You have data from the past year and a selection of our users can you create a model to predict which ones would apply at '2019-03-14'? You will be evaluated using the F1 Score.
+You have data from the past year and a selection of our users. Can you create a model to predict which ones would apply at '2019-03-13'? You will be evaluated using the F1 Score.
 
 ## Answer File
 
-The submitted file should be a `.csv` that has two columns
+The submitted file should be a `.csv` that has one column
 
-- person_id -> With the ids of the people
-- applied -> With a 1 if that person submitted an application on that day ('2019-03-14') and 0 if not.
+- person_id -> With the ids of the people that applied at '2019-03-13'
 
 The score should be based on the F1 score when comparing the submitted IDs with what actually happened
 
