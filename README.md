@@ -11,8 +11,9 @@ The submitted file should be a `.csv` that has one column
 
 - person_id -> With the ids of the people that applied at '2019-03-13'
 
-The score should be based on the F1 score when comparing the submitted IDs with what actually happened
+The score should be based on the F1 score when comparing the submitted IDs with what actually happened.
 
+In the data folder, there is a file called "solution.csv" containing the actual solution we are looking for with this challenge - the real list of people that applied on '2019-03-13'. You may use it (carefully) to check how you are doing and to present your final F1 score obtained.
 
 ## Data Dictionary
 
